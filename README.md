@@ -1,0 +1,1 @@
+UPSIFS_CHATBOT is an intelligent AI-powered chatbot developed using the Rasa Open Source framework. Designed specifically for college environments, UPSIFS_CHATBOT assists students, faculty, and visitors by providing instant responses to a wide range of academic and campus-related queries. It enhances communication and support services within the university.
