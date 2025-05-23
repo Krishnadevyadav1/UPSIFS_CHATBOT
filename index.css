@@ -1,0 +1,90 @@
+/*home page*/
+@media screen and (max-height:750px) {
+    a {
+        font-size: 9px;
+    }
+
+    p {
+
+        font-size: 11px;
+    }
+
+    #s1 {
+        font-size: 32px;
+    }
+
+    #s2 {
+        font-size: 22px;
+    }
+
+    #lo {
+        border: 3px solid #ff4c00;
+    }
+
+    .lb1 {
+        font-size: 25px;
+    }
+
+    #limg {
+        height: 27%;
+    }
+
+    /*login form js*/
+    #loim {
+        height: 20%;
+    }
+
+    input {
+        font-size: 20px;
+        border: 2px solid #ff4c00;
+    }
+
+    #la {
+        height: 50%;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    center {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    a {
+        font-size: 10px !important;
+    }
+
+    p {
+        font-size: 10px !important;
+    }
+
+    #s1 {
+        font-size: 25px !important;
+    }
+
+    #s2 {
+        font-size: 20px !important;
+    }
+
+    .lb1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    p {
+        font-size: 15px ;
+    }
+    #s1 {
+        font-size: 25px !important;
+    }
+
+    #s2 {
+        font-size: 20px !important;
+    }
+}
+@media screen {
+    
+}
