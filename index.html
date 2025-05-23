@@ -1,0 +1,44 @@
+<html class="h-full w-full">
+
+<head>
+    <title>Chat Bot</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="main.js"></script>
+</head>
+
+<body class="h-full w-full bg-white text-black">
+    <!-- Navbar -->
+    <div class="flex justify-around items-center h-[10vh] border-b-4 border-[#FF4C00] bg-[#FF4C00] nav">
+        <img src="bot.png" alt="" class="h-[100%] w-[10%]">
+        <a onclick="reverseSwapDivs()" class="text-white text-2xl font-bold">Home</a>
+        <a onclick="swapDivs(1)" class="text-white text-2xl font-bold">Login</a>
+        <a onclick="swapDivs(2)" class="text-white text-2xl font-bold">Sign Up</a>
+        <a class="text-white text-2xl font-bold">About us</a>
+    </div>
+
+    <!-- Right-side Chat Info -->
+    <div id="wm" class="w-1/2 h-[85%] mt-[1%] absolute right-0 border-l-4 border-[#FF4C00] bg-[#FF4C00] flex flex-col items-center">
+        <img src="bot.png" alt="" class=" h-[20%] w-[25%] mt-[5%] rounded-lg bg-white p-2">
+        <span class="text-white text-6xl font-bold mt-[5%]" id="s1">Hey! it's ChatBot</span>
+        <span class="text-white text-5xl font-bold mt-[2%]" id="s2">How can I assist you today? |</span>
+        <div class="relative bg-white text-black font-bold p-4 rounded-lg h-[35%] w-[60%] mt-[5%]">
+            <p class="text-2xl">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, consequuntur vitae sit,
+                aperiam incidunt soluta deleniti ex quam tempora ratione porro eligendi tempore repellat ducimus
+                numquam, earum magnam temporibus dolorem! Vitae harum laborum iste cum officiis soluta, ut veritatis adipisci mollitia quae dolores, nostrum ex voluptatem expedita amet magnam, nulla ad nemo?
+            </p>
+            <div class="absolute w-4 h-4 bg-white rotate-45 bottom-[-8px] left-4"></div>
+        </div>
+    </div>
+
+    <!-- Left-side Login Area -->
+    <div id="lo" class="flex flex-col justify-center items-center w-[40vw] h-[70vh] ml-[5%] mt-[4%] absolute left-0 border-4 border-[#FF4C00] rounded-[30px] bg-white gap-8">
+        <img class="h-30 limg" src="bot.png" alt="">
+        <button onclick="swapDivs(1)" class="text-white text-5xl font-bold border-2 border-white h-[12%] w-[70%] flex items-center justify-center rounded-full bg-[#FF4C00] hover:bg-white hover:text-[#FF4C00] transition duration-300 lb1" >Login</button>
+        <button onclick="swapDivs(2)" class="text-white text-5xl font-bold border-2 border-white h-[12%] w-[70%] flex items-center justify-center rounded-full bg-[#FF4C00] hover:bg-white hover:text-[#FF4C00] transition duration-300 lb1" >Sign Up</button>
+        <button class="text-[#FF4C00] text-4xl border-2 border-[#FF4C00] h-[12%] w-[70%] flex items-center justify-center rounded-full bg-white hover:bg-[#FF4C00] hover:text-white transition duration-300 lb1" >Continue with Google</button>
+    </div>
+</body>
+
+</html>
